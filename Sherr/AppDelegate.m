@@ -13,7 +13,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification * )aNotification {
     //pwdはSharr.appを指す
-    //パッケージ内を探索 Sherr.app/*.shを集める
+    //パッケージ内を探索 Sherr.app/*.shを実行する
     NSString * bundlePathName = [[NSBundle mainBundle] bundlePath];
 
     NSFileManager * fileManager = [NSFileManager defaultManager];
@@ -22,21 +22,22 @@
         [fileManager fileExistsAtPath:bundlePathName isDirectory:(&isDir)];
         if (isDir == YES) {
             for (NSString * shellPath in [fileManager contentsOfDirectoryAtPath:bundlePathName error:nil]) {
-                
+                NSLog(@"shellPath %@", shellPath);
                 if ([shellPath hasSuffix:DEFINE_SHELL_SUFFIX]) {
                     //パッケージ内に設置してある.shを実行する
-                    NSString * m_shellPath = [[NSString alloc]initWithFormat:@"./Sherr.app/%@", shellPath];
-                    
+                    NSString * m_shellPath = [[NSString alloc]initWithFormat:@"%@/%@", bundlePathName, shellPath];
+                    NSLog(@"Sherr:sh %@", m_shellPath);
                     NSTask * task1 = [[NSTask alloc] init];
                     [task1 setLaunchPath:@"/bin/sh"];
                     [task1 setArguments:@[m_shellPath]];
                     [task1 launch];
                     [task1 waitUntilExit];
-
+                    exit(0);
                 }
             }
         }
     }
+    exit(0);
 }
 
 @end
