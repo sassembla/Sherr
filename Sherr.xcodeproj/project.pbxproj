@@ -12,11 +12,12 @@
 		13CEFCD7173DF51A00EB5D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCD6173DF51A00EB5D9A /* main.m */; };
 		13CEFCDB173DF51A00EB5D9A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFCD9173DF51A00EB5D9A /* Credits.rtf */; };
 		13CEFCDE173DF51A00EB5D9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCDD173DF51A00EB5D9A /* AppDelegate.m */; };
-		13CEFCE1173DF51A00EB5D9A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFCDF173DF51A00EB5D9A /* MainMenu.xib */; };
 		13CEFCE9173DF51A00EB5D9A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFCE8173DF51A00EB5D9A /* SenTestingKit.framework */; };
 		13CEFCEA173DF51A00EB5D9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFCCA173DF51A00EB5D9A /* Cocoa.framework */; };
 		13CEFCF2173DF51A00EB5D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFCF0173DF51A00EB5D9A /* InfoPlist.strings */; };
 		13CEFCF5173DF51A00EB5D9A /* SherrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCF4173DF51A00EB5D9A /* SherrTests.m */; };
+		13CEFD00173E0AE400EB5D9A /* Sherr.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCFF173E0AE400EB5D9A /* Sherr.m */; };
+		13CEFD02173E168200EB5D9A /* sherr.icns in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFD01173E168200EB5D9A /* sherr.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +43,15 @@
 		13CEFCDA173DF51A00EB5D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		13CEFCDC173DF51A00EB5D9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13CEFCDD173DF51A00EB5D9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13CEFCE0173DF51A00EB5D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		13CEFCE7173DF51A00EB5D9A /* SherrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CEFCE8173DF51A00EB5D9A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		13CEFCEF173DF51A00EB5D9A /* SherrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SherrTests-Info.plist"; sourceTree = "<group>"; };
 		13CEFCF1173DF51A00EB5D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13CEFCF3173DF51A00EB5D9A /* SherrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SherrTests.h; sourceTree = "<group>"; };
 		13CEFCF4173DF51A00EB5D9A /* SherrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SherrTests.m; sourceTree = "<group>"; };
+		13CEFCFE173E0AE400EB5D9A /* Sherr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sherr.h; sourceTree = "<group>"; };
+		13CEFCFF173E0AE400EB5D9A /* Sherr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sherr.m; sourceTree = "<group>"; };
+		13CEFD01173E168200EB5D9A /* sherr.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sherr.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		13CEFCBE173DF51A00EB5D9A = {
 			isa = PBXGroup;
 			children = (
+				13CEFD01173E168200EB5D9A /* sherr.icns */,
 				13CEFCD0173DF51A00EB5D9A /* Sherr */,
 				13CEFCED173DF51A00EB5D9A /* SherrTests */,
 				13CEFCC9173DF51A00EB5D9A /* Frameworks */,
@@ -116,7 +120,6 @@
 			children = (
 				13CEFCDC173DF51A00EB5D9A /* AppDelegate.h */,
 				13CEFCDD173DF51A00EB5D9A /* AppDelegate.m */,
-				13CEFCDF173DF51A00EB5D9A /* MainMenu.xib */,
 				13CEFCD1173DF51A00EB5D9A /* Supporting Files */,
 			);
 			path = Sherr;
@@ -130,6 +133,8 @@
 				13CEFCD6173DF51A00EB5D9A /* main.m */,
 				13CEFCD8173DF51A00EB5D9A /* Sherr-Prefix.pch */,
 				13CEFCD9173DF51A00EB5D9A /* Credits.rtf */,
+				13CEFCFE173E0AE400EB5D9A /* Sherr.h */,
+				13CEFCFF173E0AE400EB5D9A /* Sherr.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -226,7 +231,7 @@
 			files = (
 				13CEFCD5173DF51A00EB5D9A /* InfoPlist.strings in Resources */,
 				13CEFCDB173DF51A00EB5D9A /* Credits.rtf in Resources */,
-				13CEFCE1173DF51A00EB5D9A /* MainMenu.xib in Resources */,
+				13CEFD02173E168200EB5D9A /* sherr.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +268,7 @@
 			files = (
 				13CEFCD7173DF51A00EB5D9A /* main.m in Sources */,
 				13CEFCDE173DF51A00EB5D9A /* AppDelegate.m in Sources */,
+				13CEFD00173E0AE400EB5D9A /* Sherr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +305,6 @@
 				13CEFCDA173DF51A00EB5D9A /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		13CEFCDF173DF51A00EB5D9A /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13CEFCE0173DF51A00EB5D9A /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		13CEFCF0173DF51A00EB5D9A /* InfoPlist.strings */ = {
