@@ -18,6 +18,7 @@
 		13CEFCF5173DF51A00EB5D9A /* SherrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCF4173DF51A00EB5D9A /* SherrTests.m */; };
 		13CEFD00173E0AE400EB5D9A /* Sherr.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCFF173E0AE400EB5D9A /* Sherr.m */; };
 		13CEFD02173E168200EB5D9A /* sherr.icns in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFD01173E168200EB5D9A /* sherr.icns */; };
+		B7DE390E17E1FF6B00DD5A62 /* stepladderShell.sh in Resources */ = {isa = PBXBuildFile; fileRef = B7DE390D17E1FF6B00DD5A62 /* stepladderShell.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 		13CEFCD8173DF51A00EB5D9A /* Sherr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sherr-Prefix.pch"; sourceTree = "<group>"; };
 		13CEFCDA173DF51A00EB5D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		13CEFCDC173DF51A00EB5D9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13CEFCDD173DF51A00EB5D9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13CEFCDD173DF51A00EB5D9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; usesTabs = 1; };
 		13CEFCE7173DF51A00EB5D9A /* SherrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CEFCE8173DF51A00EB5D9A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		13CEFCEF173DF51A00EB5D9A /* SherrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SherrTests-Info.plist"; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		13CEFCFE173E0AE400EB5D9A /* Sherr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sherr.h; sourceTree = "<group>"; };
 		13CEFCFF173E0AE400EB5D9A /* Sherr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sherr.m; sourceTree = "<group>"; };
 		13CEFD01173E168200EB5D9A /* sherr.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sherr.icns; sourceTree = "<group>"; };
+		B7DE390D17E1FF6B00DD5A62 /* stepladderShell.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = stepladderShell.sh; path = Sherr/stepladderShell.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				13CEFD01173E168200EB5D9A /* sherr.icns */,
+				B7DE390D17E1FF6B00DD5A62 /* stepladderShell.sh */,
 				13CEFCD0173DF51A00EB5D9A /* Sherr */,
 				13CEFCED173DF51A00EB5D9A /* SherrTests */,
 				13CEFCC9173DF51A00EB5D9A /* Frameworks */,
@@ -232,6 +235,7 @@
 				13CEFCD5173DF51A00EB5D9A /* InfoPlist.strings in Resources */,
 				13CEFCDB173DF51A00EB5D9A /* Credits.rtf in Resources */,
 				13CEFD02173E168200EB5D9A /* sherr.icns in Resources */,
+				B7DE390E17E1FF6B00DD5A62 /* stepladderShell.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +454,7 @@
 				13CEFCFA173DF51A00EB5D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13CEFCFB173DF51A00EB5D9A /* Build configuration list for PBXNativeTarget "SherrTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +463,7 @@
 				13CEFCFD173DF51A00EB5D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
