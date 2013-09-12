@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#define DEFINE_SHELL_SUFFIX (@".sh")
-#define KEY_SHERR_IDENTITY  (@"sherr")
+#define DEFINE_SHELL_SUFFIX		(@".sh")
+
+#define KEY_SHERR_IDENTITY		(@"sherr")
 
 @implementation AppDelegate
 
@@ -97,9 +98,6 @@ int m_mode;
 
 
 - (void) reduceCount {
-	NSLog(@"reduce");
-	NSLog(@"m_restCount %f",m_restCount);
-	
 	switch (m_mode) {
 		case MODE_REDUCE:{
 			m_restCount -= lifeTimeUnit;
@@ -112,7 +110,6 @@ int m_mode;
 			
 		default:{
 			// do nothing
-			NSLog(@"running, not reduce.");
 			break;
 		}
 	
@@ -124,7 +121,8 @@ int m_mode;
  notification受け取り時の動作
  */
 - (void) receiver:(NSNotification * )notif {
-    NSLog(@"sherr arise");
     [self runShell:[[NSBundle mainBundle] bundlePath]];
 }
+
+
 @end

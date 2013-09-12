@@ -18,6 +18,8 @@
 		13CEFCF5173DF51A00EB5D9A /* SherrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCF4173DF51A00EB5D9A /* SherrTests.m */; };
 		13CEFD00173E0AE400EB5D9A /* Sherr.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFCFF173E0AE400EB5D9A /* Sherr.m */; };
 		13CEFD02173E168200EB5D9A /* sherr.icns in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFD01173E168200EB5D9A /* sherr.icns */; };
+		B74E5BC917E21685005CBC1C /* continue.sh in Resources */ = {isa = PBXBuildFile; fileRef = B74E5BC817E21685005CBC1C /* continue.sh */; };
+		B74E5BCB17E216DD005CBC1C /* nnotif in Resources */ = {isa = PBXBuildFile; fileRef = B74E5BCA17E216DD005CBC1C /* nnotif */; };
 		B7DE390E17E1FF6B00DD5A62 /* stepladderShell.sh in Resources */ = {isa = PBXBuildFile; fileRef = B7DE390D17E1FF6B00DD5A62 /* stepladderShell.sh */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		13CEFCFE173E0AE400EB5D9A /* Sherr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sherr.h; sourceTree = "<group>"; };
 		13CEFCFF173E0AE400EB5D9A /* Sherr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sherr.m; sourceTree = "<group>"; };
 		13CEFD01173E168200EB5D9A /* sherr.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sherr.icns; sourceTree = "<group>"; };
+		B74E5BC817E21685005CBC1C /* continue.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = continue.sh; sourceTree = "<group>"; };
+		B74E5BCA17E216DD005CBC1C /* nnotif */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nnotif; sourceTree = "<group>"; };
 		B7DE390D17E1FF6B00DD5A62 /* stepladderShell.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = stepladderShell.sh; path = Sherr/stepladderShell.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				13CEFD01173E168200EB5D9A /* sherr.icns */,
+				B74E5BCA17E216DD005CBC1C /* nnotif */,
+				B74E5BC817E21685005CBC1C /* continue.sh */,
 				B7DE390D17E1FF6B00DD5A62 /* stepladderShell.sh */,
 				13CEFCD0173DF51A00EB5D9A /* Sherr */,
 				13CEFCED173DF51A00EB5D9A /* SherrTests */,
@@ -236,6 +242,8 @@
 				13CEFCDB173DF51A00EB5D9A /* Credits.rtf in Resources */,
 				13CEFD02173E168200EB5D9A /* sherr.icns in Resources */,
 				B7DE390E17E1FF6B00DD5A62 /* stepladderShell.sh in Resources */,
+				B74E5BCB17E216DD005CBC1C /* nnotif in Resources */,
+				B74E5BC917E21685005CBC1C /* continue.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
