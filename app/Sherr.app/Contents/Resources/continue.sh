@@ -1,0 +1,1 @@
+./Sherr.app/Contents/REsources/nnotif -t sherr -i run
